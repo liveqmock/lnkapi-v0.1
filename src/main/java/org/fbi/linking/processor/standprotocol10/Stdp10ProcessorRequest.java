@@ -1,5 +1,6 @@
 package org.fbi.linking.processor.standprotocol10;
 
+import org.fbi.linking.processor.ProcessorContext;
 import org.fbi.linking.processor.ProcessorRequest;
 
 import java.util.Enumeration;
@@ -16,4 +17,5 @@ public interface Stdp10ProcessorRequest extends ProcessorRequest{
     public int getIntHeader(String name);
 
     public byte[] getRequestBody();
+    public void setProcessorContext(ProcessorContext context);
 }

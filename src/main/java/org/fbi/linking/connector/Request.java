@@ -17,6 +17,7 @@ public class Request implements Stdp10ProcessorRequest {
     private String encoding = "GBK";
     private Map<String, String> headerMap = new HashMap<>();
     private byte[] body;
+    private ProcessorContext context;
 
     public Request(String buf){
         if (buf == null || buf.length() < 111) {
@@ -138,6 +139,10 @@ public class Request implements Stdp10ProcessorRequest {
 
     @Override
     public ProcessorContext getProcessorContext() {
-        return null;  //To change body of implemented methods use File | Settings | File Templates.
+        return this.context;
+    }
+    @Override
+    public void setProcessorContext(ProcessorContext context) {
+        this.context = context;
     }
 }

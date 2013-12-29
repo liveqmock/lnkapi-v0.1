@@ -1,5 +1,6 @@
 package org.fbi.linking.processor.standprotocol10;
 
+import org.fbi.linking.processor.ProcessorContext;
 import org.fbi.linking.processor.ProcessorRequestWrapper;
 
 import java.util.Enumeration;
@@ -41,5 +42,10 @@ public class Stdp10ProcessorRequestWrapper extends ProcessorRequestWrapper imple
     @Override
     public byte[] getRequestBody() {
         return  this._getStdp10ProcessorRequest().getRequestBody();
+    }
+
+    @Override
+    public void setProcessorContext(ProcessorContext context) {
+        this._getStdp10ProcessorRequest().setProcessorContext(context);
     }
 }
