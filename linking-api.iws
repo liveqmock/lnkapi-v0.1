@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="49c01fc0-e6c3-4af2-83ad-ea38f2e2f2c2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/org.osgi.core-5.0.0-sources.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/org.osgi.core-5.0.0.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/fbi/linking/connector/Request.java" afterPath="$PROJECT_DIR$/src/main/java/org/fbi/linking/connector/Request.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/fbi/linking/processor/standprotocol10/Stdp10ProcessorRequest.java" afterPath="$PROJECT_DIR$/src/main/java/org/fbi/linking/processor/standprotocol10/Stdp10ProcessorRequest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/fbi/linking/processor/standprotocol10/Stdp10ProcessorRequestWrapper.java" afterPath="$PROJECT_DIR$/src/main/java/org/fbi/linking/processor/standprotocol10/Stdp10ProcessorRequestWrapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/linking-api.iml" afterPath="$PROJECT_DIR$/linking-api.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/META-INF/MANIFEST.MF" afterPath="$PROJECT_DIR$/src/main/META-INF/MANIFEST.MF" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/linking-api.ipr" afterPath="$PROJECT_DIR$/linking-api.ipr" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/linking-api.iws" afterPath="$PROJECT_DIR$/linking-api.iws" />
+      <change type="MOVED" beforePath="E:\WorkSpace\git-linking2-ccb\lnkapi-v0.1\src\main\java\org\fbi\linking\connector\Request.java" afterPath="$PROJECT_DIR$/src/main/java/org/fbi/linking/connector/cbs10/Cbs10Request.java" />
+      <change type="MOVED" beforePath="E:\WorkSpace\git-linking2-ccb\lnkapi-v0.1\src\main\java\org\fbi\linking\connector\Response.java" afterPath="$PROJECT_DIR$/src/main/java/org/fbi/linking/connector/cbs10/Cbs10Response.java" />
     </list>
     <ignored path="linking-api.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -86,7 +83,7 @@
       <file leaf-file-name="Stdp10ProcessorRequest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/fbi/linking/processor/standprotocol10/Stdp10ProcessorRequest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="63" selection-start="600" selection-end="600" vertical-scroll-proportion="0.0" vertical-offset="22" max-vertical-offset="594">
+            <state line="19" column="62" selection-start="600" selection-end="600" vertical-scroll-proportion="0.0" vertical-offset="418" max-vertical-offset="594">
               <folding />
             </state>
           </provider>
@@ -95,39 +92,43 @@
       <file leaf-file-name="ProcessorRequest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/fbi/linking/processor/ProcessorRequest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="17" selection-start="106" selection-end="106" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="572">
+            <state line="5" column="17" selection-start="106" selection-end="106" vertical-scroll-proportion="0.0" vertical-offset="110" max-vertical-offset="572">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Request.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/fbi/linking/connector/Request.java">
+      <file leaf-file-name="Cbs10Request.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/fbi/linking/connector/cbs10/Cbs10Request.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="144" column="0" selection-start="4472" selection-end="4472" vertical-scroll-proportion="0.0" vertical-offset="2706" max-vertical-offset="3300">
-              <folding>
-                <element signature="e#4421#4422#0" expanded="true" />
-                <element signature="e#4456#4457#0" expanded="true" />
-                <element signature="e#4534#4535#0" expanded="true" />
-                <element signature="e#4572#4573#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Response.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/fbi/linking/connector/Response.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="13" selection-start="261" selection-end="261" vertical-scroll-proportion="0.0" vertical-offset="286" max-vertical-offset="1782">
+            <state line="169" column="0" selection-start="4636" selection-end="5574" vertical-scroll-proportion="0.0" vertical-offset="3058" max-vertical-offset="3696">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Stdp10ProcessorRequestWrapper.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Cbs10Response.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/fbi/linking/connector/cbs10/Cbs10Response.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="89" column="71" selection-start="2581" selection-end="2581" vertical-scroll-proportion="0.5833333" vertical-offset="1474" max-vertical-offset="2112">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MANIFEST.MF" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/META-INF/MANIFEST.MF">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="58" selection-start="355" selection-end="355" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="396">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Stdp10ProcessorRequestWrapper.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/fbi/linking/processor/standprotocol10/Stdp10ProcessorRequestWrapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="48" column="69" selection-start="1406" selection-end="1406" vertical-scroll-proportion="0.801085" vertical-offset="613" max-vertical-offset="1254">
+            <state line="48" column="69" selection-start="1406" selection-end="1406" vertical-scroll-proportion="0.0" vertical-offset="613" max-vertical-offset="1254">
               <folding />
             </state>
           </provider>
@@ -145,7 +146,7 @@
       <file leaf-file-name="Stdp10ProcessorResponse.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/fbi/linking/processor/standprotocol10/Stdp10ProcessorResponse.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="17" selection-start="195" selection-end="195" vertical-scroll-proportion="0.0" vertical-offset="220" max-vertical-offset="616">
+            <state line="10" column="17" selection-start="195" selection-end="195" vertical-scroll-proportion="0.0" vertical-offset="63" max-vertical-offset="616">
               <folding />
             </state>
           </provider>
@@ -185,7 +186,6 @@
         <option value="$PROJECT_DIR$/src/main/java/org/fbi/linking/processor/ProcessorReponseWrapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/fbi/linking/processor/ProcessorResponseWrapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/fbi/linking/processor/ProcessorResponse.java" />
-        <option value="$PROJECT_DIR$/src/main/META-INF/MANIFEST.MF" />
         <option value="$PROJECT_DIR$/src/main/java/org/fbi/linking/processor/standprotocol10/Stdp10Processor.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/fbi/linking/processor/ProcessorRequest.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/fbi/linking/processor/standprotocol10/Stdp10ProcessorResponse.java" />
@@ -194,6 +194,10 @@
         <option value="$PROJECT_DIR$/src/main/java/org/fbi/linking/connector/Request.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/fbi/linking/processor/standprotocol10/Stdp10ProcessorRequest.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/fbi/linking/processor/standprotocol10/Stdp10ProcessorRequestWrapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/fbi/linking/connector/cbs10/Request.java" />
+        <option value="$PROJECT_DIR$/src/main/META-INF/MANIFEST.MF" />
+        <option value="$PROJECT_DIR$/src/main/java/org/fbi/linking/connector/cbs10/Cbs10Request.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/fbi/linking/connector/cbs10/Cbs10Response.java" />
       </list>
     </option>
   </component>
@@ -274,6 +278,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="META-INF" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -405,6 +413,48 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="org" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fbi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="linking" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="connector" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cbs10" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="linking-api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lnkapi-v0.1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="lib" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -453,12 +503,59 @@
     </key>
   </component>
   <component name="RunManager" selected="Remote.karaf-remote">
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails" singleton="true">
+      <module name="" />
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="depsClasspath" value="false" />
+      <setting name="passParentEnv" value="true" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <setting name="launchBrowser" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+      <method />
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" output_log_level="null" package_name="" scope="Class">
+      <option name="BCName" value="" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browserFamily" value="FIREFOX" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="moduleName" value="" />
+      <option name="trusted" value="true" />
       <method />
     </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
@@ -472,6 +569,53 @@
       <option name="VM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -508,6 +652,60 @@
       </option>
       <envs />
       <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
+      <option name="BCName" value="" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browserFamily" value="FIREFOX" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="" />
+      <option name="overriddenMainClass" value="" />
+      <option name="overriddenOutputFileName" value="" />
+      <option name="overrideMainClass" value="false" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
       <method />
     </configuration>
     <configuration default="false" name="karaf-remote" type="Remote" factoryName="Remote">
@@ -558,21 +756,27 @@
       <updated>1383119663375</updated>
       <workItem from="1388026971747" duration="97000" />
       <workItem from="1388327990073" duration="1699000" />
-      <workItem from="1388330529796" duration="1077000" />
+      <workItem from="1388330529796" duration="1094000" />
+      <workItem from="1388717678582" duration="552000" />
+      <workItem from="1388718985209" duration="1340000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1386582511311</created>
       <updated>1386582511311</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="init&#10;">
+      <created>1388331637232</created>
+      <updated>1388331637232</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2873000" />
+    <option name="totallyTimeSpent" value="4782000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -617,7 +821,8 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value="init" />
-    <option name="LAST_COMMIT_MESSAGE" value="init" />
+    <MESSAGE value="init&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="init&#10;" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -628,6 +833,104 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/META-INF/MANIFEST.MF">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="58" selection-start="355" selection-end="355" vertical-scroll-proportion="0.0" vertical-offset="220" max-vertical-offset="396">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/fbi/linking/processor/standprotocol10/Stdp10ProcessorRequestWrapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="69" selection-start="1406" selection-end="1406" vertical-scroll-proportion="0.0" vertical-offset="613" max-vertical-offset="1254">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/fbi/linking/processor/ProcessorContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="20" selection-start="145" selection-end="145" vertical-scroll-proportion="0.0" vertical-offset="107" max-vertical-offset="660">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/fbi/linking/processor/standprotocol10/Stdp10ProcessorResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="17" selection-start="195" selection-end="195" vertical-scroll-proportion="0.0" vertical-offset="63" max-vertical-offset="616">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/fbi/linking/processor/standprotocol10/Stdp10ProcessorResponseWrapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="13" selection-start="198" selection-end="198" vertical-scroll-proportion="0.0" vertical-offset="220" max-vertical-offset="1518">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/fbi/linking/processor/standprotocol10/Stdp10Processor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="23" selection-start="355" selection-end="355" vertical-scroll-proportion="0.0" vertical-offset="286" max-vertical-offset="1122">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/fbi/linking/processor/standprotocol10/Stdp10ProcessorRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="63" selection-start="600" selection-end="600" vertical-scroll-proportion="0.0" vertical-offset="418" max-vertical-offset="594">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/fbi/linking/processor/ProcessorRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="17" selection-start="106" selection-end="106" vertical-scroll-proportion="0.0" vertical-offset="110" max-vertical-offset="572">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/fbi/linking/connector/cbs10/Cbs10Request.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="144" column="0" selection-start="4472" selection-end="4472" vertical-scroll-proportion="0.0" vertical-offset="3168" max-vertical-offset="3388">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/fbi/linking/connector/cbs10/Cbs10Response.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="13" selection-start="261" selection-end="261" vertical-scroll-proportion="0.0" vertical-offset="286" max-vertical-offset="1782">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/fbi/linking/processor/standprotocol10/Stdp10ProcessorRequestWrapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="69" selection-start="1406" selection-end="1406" vertical-scroll-proportion="0.0" vertical-offset="613" max-vertical-offset="1254">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/fbi/linking/processor/ProcessorContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="20" selection-start="145" selection-end="145" vertical-scroll-proportion="0.0" vertical-offset="107" max-vertical-offset="660">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/fbi/linking/processor/standprotocol10/Stdp10ProcessorResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="17" selection-start="195" selection-end="195" vertical-scroll-proportion="0.0" vertical-offset="220" max-vertical-offset="616">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/fbi/linking/processor/standprotocol10/Stdp10ProcessorResponseWrapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="13" selection-start="198" selection-end="198" vertical-scroll-proportion="0.0" vertical-offset="220" max-vertical-offset="1518">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/fbi/linking/processor/standprotocol10/Stdp10Processor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="23" selection-start="355" selection-end="355" vertical-scroll-proportion="0.0" vertical-offset="286" max-vertical-offset="1122">
@@ -649,19 +952,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/fbi/linking/connector/Request.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/fbi/linking/connector/cbs10/Cbs10Request.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="47" selection-start="391" selection-end="391" vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="3278">
-          <folding>
-            <element signature="e#4421#4422#0" expanded="true" />
-            <element signature="e#4456#4457#0" expanded="true" />
-            <element signature="e#4534#4535#0" expanded="true" />
-            <element signature="e#4572#4573#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/fbi/linking/connector/Response.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/fbi/linking/connector/cbs10/Cbs10Response.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="13" selection-start="261" selection-end="261" vertical-scroll-proportion="0.0" vertical-offset="286" max-vertical-offset="1782">
           <folding />
@@ -710,15 +1008,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/fbi/linking/connector/Request.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/fbi/linking/connector/cbs10/Cbs10Request.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="46" column="0" selection-start="1532" selection-end="1532" vertical-scroll-proportion="0.0" vertical-offset="1012" max-vertical-offset="3190">
-          <folding>
-            <element signature="e#4421#4422#0" expanded="true" />
-            <element signature="e#4456#4457#0" expanded="true" />
-            <element signature="e#4534#4535#0" expanded="true" />
-            <element signature="e#4572#4573#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -757,15 +1050,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/fbi/linking/connector/Request.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/fbi/linking/connector/cbs10/Cbs10Request.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="46" column="0" selection-start="1532" selection-end="1532" vertical-scroll-proportion="0.0" vertical-offset="1012" max-vertical-offset="3190">
-          <folding>
-            <element signature="e#4421#4422#0" expanded="true" />
-            <element signature="e#4456#4457#0" expanded="true" />
-            <element signature="e#4534#4535#0" expanded="true" />
-            <element signature="e#4572#4573#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -814,11 +1102,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/META-INF/MANIFEST.MF">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="27" selection-start="293" selection-end="321" vertical-scroll-proportion="0.5963303" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/fbi/linking/processor/Processor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="17" selection-start="83" selection-end="83" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
@@ -831,30 +1114,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/fbi/linking/processor/standprotocol10/Stdp10Processor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="23" selection-start="355" selection-end="355" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/fbi/linking/processor/standprotocol10/Stdp10ProcessorResponseWrapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="13" selection-start="198" selection-end="198" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/fbi/linking/connector/Response.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="13" selection-start="261" selection-end="261" vertical-scroll-proportion="0.0" vertical-offset="264" max-vertical-offset="1606">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/fbi/linking/processor/standprotocol10/Stdp10ProcessorResponse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="17" selection-start="195" selection-end="195" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <folding />
         </state>
       </provider>
@@ -873,28 +1135,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/fbi/linking/connector/Request.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/fbi/linking/processor/standprotocol10/Stdp10ProcessorRequestWrapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="144" column="0" selection-start="4472" selection-end="4472" vertical-scroll-proportion="0.0" vertical-offset="2706" max-vertical-offset="3300">
-          <folding>
-            <element signature="e#4421#4422#0" expanded="true" />
-            <element signature="e#4456#4457#0" expanded="true" />
-            <element signature="e#4534#4535#0" expanded="true" />
-            <element signature="e#4572#4573#0" expanded="true" />
-          </folding>
+        <state line="48" column="69" selection-start="1406" selection-end="1406" vertical-scroll-proportion="0.0" vertical-offset="613" max-vertical-offset="1254">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/fbi/linking/processor/standprotocol10/Stdp10Processor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="23" selection-start="355" selection-end="355" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/fbi/linking/processor/standprotocol10/Stdp10ProcessorResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="17" selection-start="195" selection-end="195" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/fbi/linking/processor/standprotocol10/Stdp10ProcessorRequest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="63" selection-start="600" selection-end="600" vertical-scroll-proportion="0.0" vertical-offset="22" max-vertical-offset="594">
+        <state line="19" column="62" selection-start="600" selection-end="600" vertical-scroll-proportion="0.0" vertical-offset="41" max-vertical-offset="594">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/fbi/linking/processor/standprotocol10/Stdp10ProcessorRequestWrapper.java">
+    <entry file="file://$PROJECT_DIR$/src/main/META-INF/MANIFEST.MF">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="69" selection-start="1406" selection-end="1406" vertical-scroll-proportion="0.801085" vertical-offset="613" max-vertical-offset="1254">
+        <state line="10" column="58" selection-start="355" selection-end="355" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="396">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/fbi/linking/connector/cbs10/Cbs10Request.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="169" column="0" selection-start="4636" selection-end="5574" vertical-scroll-proportion="0.0" vertical-offset="3058" max-vertical-offset="3696">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/fbi/linking/connector/cbs10/Cbs10Response.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="89" column="71" selection-start="2581" selection-end="2581" vertical-scroll-proportion="0.5833333" vertical-offset="1474" max-vertical-offset="2112">
           <folding />
         </state>
       </provider>

@@ -7,5 +7,6 @@ Bundle-Version: 0.1.0
 Created-By: 1.7.0_10 (Oracle Corporation)
 Export-Package: org.fbi.linking.processor,
   org.fbi.linking.processor.standprotocol10,
+  org.fbi.linking.connector.cbs10,
   org.fbi.linking.connector
 Tool: Bnd-1.50.0

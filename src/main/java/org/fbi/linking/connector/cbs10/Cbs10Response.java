@@ -1,7 +1,8 @@
-package org.fbi.linking.connector;
+package org.fbi.linking.connector.cbs10;
 
 import org.fbi.linking.processor.standprotocol10.Stdp10ProcessorResponse;
 
+import java.io.UnsupportedEncodingException;
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;
@@ -11,7 +12,7 @@ import java.util.Map;
  * Date: 13-11-26
  * Time: 下午8:14
  */
-public class Response implements Stdp10ProcessorResponse {
+public class Cbs10Response implements Stdp10ProcessorResponse {
     private String encoding = "GBK";
     private Map<String, String> headerMap = new HashMap<>();
     private byte[] body;
@@ -71,5 +72,27 @@ public class Response implements Stdp10ProcessorResponse {
     @Override
     public void setCharacterEncoding(String s) {
         this.encoding = s;
+    }
+
+    @Override
+    public String toString() {
+        String header = "Cbs10Response header {" +
+                "version=" + headerMap.get("version") + "," +
+                "serialNo=" + headerMap.get("serialNo") + "," +
+                "rtnCode=" + headerMap.get("rtnCode") + "," +
+                "txnCode=" + headerMap.get("txnCode") + "," +
+                "branchId=" + headerMap.get("branchId") + "," +
+                "tellerId=" + headerMap.get("tellerId") + "," +
+                "ueserId=" + headerMap.get("ueserId") + "," +
+                "appId=" + headerMap.get("appId") + "," +
+                "txnTime=" + headerMap.get("txnTime") + "," +
+                "mac=" + headerMap.get("mac") + "}";
+        String body = "";
+        try {
+            body = "Cbs10Response body {" + new String(this.getResponseBody(),this.encoding) + "}";
+        } catch (UnsupportedEncodingException e) {
+            e.printStackTrace();
+        }
+        return header + "\n" + body;
     }
 }

@@ -1,4 +1,4 @@
-package org.fbi.linking.connector;
+package org.fbi.linking.connector.cbs10;
 
 import org.fbi.linking.processor.ProcessorContext;
 import org.fbi.linking.processor.standprotocol10.Stdp10ProcessorRequest;
@@ -13,13 +13,13 @@ import java.util.Map;
  * Date: 13-11-26
  * Time: 下午8:06
  */
-public class Request implements Stdp10ProcessorRequest {
+public class Cbs10Request implements Stdp10ProcessorRequest {
     private String encoding = "GBK";
     private Map<String, String> headerMap = new HashMap<>();
     private byte[] body;
     private ProcessorContext context;
 
-    public Request(String buf){
+    public Cbs10Request(String buf){
         if (buf == null || buf.length() < 111) {
             throw new RuntimeException("报文头字节长度错误！");
         }
@@ -144,5 +144,27 @@ public class Request implements Stdp10ProcessorRequest {
     @Override
     public void setProcessorContext(ProcessorContext context) {
         this.context = context;
+    }
+
+    @Override
+    public String toString() {
+        String header = "Cbs10Request header {" +
+                "version=" + headerMap.get("version") + "," +
+                "serialNo=" + headerMap.get("serialNo") + "," +
+                "rtnCode=" + headerMap.get("rtnCode") + "," +
+                "txnCode=" + headerMap.get("txnCode") + "," +
+                "branchId=" + headerMap.get("branchId") + "," +
+                "tellerId=" + headerMap.get("tellerId") + "," +
+                "ueserId=" + headerMap.get("ueserId") + "," +
+                "appId=" + headerMap.get("appId") + "," +
+                "txnTime=" + headerMap.get("txnTime") + "," +
+                "mac=" + headerMap.get("mac") + "}";
+        String body = "";
+        try {
+            body = "Cbs10Request body {" + new String(this.getRequestBody(),this.encoding) + "}";
+        } catch (UnsupportedEncodingException e) {
+            e.printStackTrace();
+        }
+        return header + "\n" + body;
     }
 }
