@@ -89,7 +89,12 @@ public class Cbs10Response implements Stdp10ProcessorResponse {
                 "mac=" + headerMap.get("mac") + "}";
         String body = "";
         try {
-            body = "Cbs10Response body {" + new String(this.getResponseBody(),this.encoding) + "}";
+            byte[] responseBody = this.getResponseBody();
+            if (responseBody != null) {
+                body = "Cbs10Response body {" + new String(responseBody, this.encoding) + "}";
+            } else {
+                body = "Cbs10Response body {}";
+            }
         } catch (UnsupportedEncodingException e) {
             e.printStackTrace();
         }
