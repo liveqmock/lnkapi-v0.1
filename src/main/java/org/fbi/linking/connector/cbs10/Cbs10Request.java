@@ -43,7 +43,7 @@ public class Cbs10Request implements Stdp10ProcessorRequest {
         headerMap.put("tellerId", buf.substring(index, index + step).trim());
         index += step;
         step = 6;
-        headerMap.put("ueserId", buf.substring(index, index + step).trim());
+        headerMap.put("userId", buf.substring(index, index + step).trim());
         index += step;
         step = 6;
         headerMap.put("appId", buf.substring(index, index + step).trim());
@@ -155,7 +155,7 @@ public class Cbs10Request implements Stdp10ProcessorRequest {
                 "txnCode=" + headerMap.get("txnCode") + "," +
                 "branchId=" + headerMap.get("branchId") + "," +
                 "tellerId=" + headerMap.get("tellerId") + "," +
-                "ueserId=" + headerMap.get("ueserId") + "," +
+                "userId=" + headerMap.get("userId") + "," +
                 "appId=" + headerMap.get("appId") + "," +
                 "txnTime=" + headerMap.get("txnTime") + "," +
                 "mac=" + headerMap.get("mac") + "}";

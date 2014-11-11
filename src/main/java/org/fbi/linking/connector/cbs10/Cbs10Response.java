@@ -83,7 +83,7 @@ public class Cbs10Response implements Stdp10ProcessorResponse {
                 "txnCode=" + headerMap.get("txnCode") + "," +
                 "branchId=" + headerMap.get("branchId") + "," +
                 "tellerId=" + headerMap.get("tellerId") + "," +
-                "ueserId=" + headerMap.get("ueserId") + "," +
+                "userId=" + headerMap.get("userId") + "," +
                 "appId=" + headerMap.get("appId") + "," +
                 "txnTime=" + headerMap.get("txnTime") + "," +
                 "mac=" + headerMap.get("mac") + "}";
